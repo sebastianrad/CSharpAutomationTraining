@@ -30,12 +30,12 @@ namespace CSharpAutoTraining.Curs1
 
         public void DisplayWindowHeight()
         {
-            Console.WriteLine("browser's newHeight: " + WindowHeight);
+            Console.WriteLine("browser's newWindowHeight: " + WindowHeight);
         }
 
         public void DisplayWindowWidth()
         {
-            Console.WriteLine("browser's newWidth: " + WindowWidth);
+            Console.WriteLine("browser's newWindowWidth: " + WindowWidth);
         }
     }
 }
