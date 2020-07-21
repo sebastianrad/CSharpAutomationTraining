@@ -9,6 +9,7 @@ namespace CSharpAutoTraining.Curs1
     class Browser
     {
         public int WindowWidth = 1024;
+        public int WindowHeight = 1056;
 
         public Browser()
         {
@@ -22,5 +23,20 @@ namespace CSharpAutoTraining.Curs1
         {
             WindowWidth = newWindowWidth;
         }
+        public void ChangeWindowHeight(int newWindowHeight)
+
+        {
+            WindowHeight = newWindowHeight;
+        }
+        public int DisplayWindowWidth()
+        {
+            return WindowWidth;
+            
+        }
+        public int DisplayWindowHeight()
+        {
+            return WindowHeight;
+        }
+        
     }
 }
