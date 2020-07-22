@@ -7,10 +7,12 @@ namespace Curs1
     {
         static void Main(string[] args)
         {
-            var browser = new Browser();
+           
+            var browser = new Browser(3000);
             
             Console.WriteLine(browser.WindowWidth);
-            browser.ChangeWindowWidth(2000);
+            
+            //browser.ChangeWindowWidth(2000);
 
 
             Console.WriteLine(browser.WindowWidth);
