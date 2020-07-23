@@ -11,21 +11,27 @@ namespace CSharpAutoTraining.Curs1
 
         //variable
         public int WindowWidth = 1024;
-        
+        public int WindowHeight = 720;
+
         public Browser()
         {
 
-
         }
 
-        public Browser(int newWindowWidth)
-        {
-            WindowWidth = newWindowWidth;
-        }
+
 
         public void ChangeWindowWidth(int newWindowWidth)
         {
             WindowWidth = newWindowWidth;
+
+            Console.WriteLine(WindowWidth);
+        }
+
+        public void ChangeWindowHeight(int newWindowHeight)
+        {
+            WindowWidth = newWindowHeight;
+
+            Console.WriteLine(WindowHeight);
         }
     }
 }
