@@ -13,8 +13,6 @@ namespace CSharpAutoTraining.Curs2
         public string WindowWidth_string;
         public double WindowWidth_double;
 
-        // loop index
-        int i = 0;
 
 
         // add method to change WindowWidth
@@ -26,6 +24,9 @@ namespace CSharpAutoTraining.Curs2
         // add method to display window with depending on condition > 1920
         public void Check_WindowWidth_1920()
         {
+            // loop index
+            int i = 0;
+
             if (WindowWidth_int > 1920)
             {
                 Console.WriteLine("Display 3 times window width, using while loop");
@@ -42,9 +43,10 @@ namespace CSharpAutoTraining.Curs2
             {
                 Console.WriteLine("Display 2 times window width, using for loop");
 
-                for (int i = 0; i < 2; i++)
+                for (i = 0; i < 2; i++)
                 {
-                    Console.WriteLine("Chrome WindowWidth_int is less than 1920 ");
+                    Console.Write("InternetExplorer WindowWidth_int = ");
+                    Console.WriteLine(WindowWidth_int);
                 }
             }
         }

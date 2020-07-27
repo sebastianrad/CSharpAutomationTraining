@@ -1,7 +1,10 @@
 ﻿using CSharpAutoTraining.Curs1;
 using CSharpAutoTraining.Curs2;
+using CSharpAutoTraining.Curs3;
 using System;
 using Browser = CSharpAutoTraining.Curs2.Browser;
+using Chrome = CSharpAutoTraining.Curs3.Chrome;
+using Firefox = CSharpAutoTraining.Curs3.Firefox;
 
 namespace CursCSharp 
 {
@@ -11,13 +14,48 @@ namespace CursCSharp
         {
 
             /*******************************/
-            /* Curs2 - cod Practice / Tema */
-
+            /* Curs3 - cod Practice / Tema */
+            Console.WriteLine("----- CURS3 -----");
             // create objects
-            CSharpAutoTraining.Curs2.Browser browser = new Browser();
-            Firefox firefox = new Firefox();
-            Chrome chrome = new Chrome();
-            InternetExplorer InternetExplorer = new InternetExplorer();
+            CSharpAutoTraining.Curs3.Browser browser_curs3 = new CSharpAutoTraining.Curs3.Browser();
+            CSharpAutoTraining.Curs3.Firefox firefox_curs3 = new CSharpAutoTraining.Curs3.Firefox();
+            CSharpAutoTraining.Curs3.Chrome chrome_curs3 = new CSharpAutoTraining.Curs3.Chrome();
+            CSharpAutoTraining.Curs3.InternetExplorer InternetExplorer_curs3 = new CSharpAutoTraining.Curs3.InternetExplorer();
+            CSharpAutoTraining.Curs3.Edge edge_curs3 = new Edge();
+
+            Console.WriteLine("----- Browser section -----");
+            browser_curs3.About();
+            browser_curs3.ChangeWindowWidth(1000);
+
+            Console.WriteLine();
+            Console.WriteLine("----- Firefox section -----");
+            firefox_curs3.SetProfile("Firefox_Curs3");
+
+            Console.WriteLine();
+            Console.WriteLine("----- Chrome section -----");
+            chrome_curs3.ChangeWindowWidth("9000");
+
+            Console.WriteLine();
+            Console.WriteLine("----- InternetExplorer section -----");
+            InternetExplorer_curs3.ChangeWindowWidth(9000);
+
+            Console.WriteLine();
+            Console.WriteLine("----- Edge section -----");
+            edge_curs3.NewFeatureFunction();
+
+            /*******************************/
+
+
+            /*******************************/
+            /* Curs2 - cod Practice / Tema */
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("----- CURS2 -----");
+            // create objects
+            CSharpAutoTraining.Curs2.Browser browser = new CSharpAutoTraining.Curs2.Browser();
+            CSharpAutoTraining.Curs2.Firefox firefox = new CSharpAutoTraining.Curs2.Firefox();
+            CSharpAutoTraining.Curs2.Chrome chrome = new CSharpAutoTraining.Curs2.Chrome();
+            CSharpAutoTraining.Curs2.InternetExplorer InternetExplorer = new CSharpAutoTraining.Curs2.InternetExplorer();
 
 
             // For Firefox:
@@ -101,7 +139,7 @@ namespace CursCSharp
 
 
             /*******************************/
-            /* Curs1 - code prezentare */
+            /* Curs1 - cod prezentare */
 
             //var browser = new Browser();
 
