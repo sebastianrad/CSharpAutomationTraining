@@ -7,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSharpAutoTraining.Curs3
 {
-    class IE : Browser
+    class Chrome : Browser
     {
-       
-        public void ChangeWindowWidth3(int val)
+        public void ChangeWindowWidth(string val)
         {
 
         }

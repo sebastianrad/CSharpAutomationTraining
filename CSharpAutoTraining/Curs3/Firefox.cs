@@ -9,5 +9,9 @@ namespace CSharpAutoTraining.Curs3
 {
     class Firefox : Browser
     {
+        public void SetProfile(string profileName)
+        {
+
+        }
     }
 }

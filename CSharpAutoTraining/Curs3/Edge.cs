@@ -1,5 +1,4 @@
-﻿using CSharpAutoTraining.Curs1;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSharpAutoTraining.Curs3
 {
-    class IE : Browser
+    class Edge : IE
     {
-       
-        public void ChangeWindowWidth3(int val)
+        int version;
+        public void NewFeatureFunction()
         {
 
         }

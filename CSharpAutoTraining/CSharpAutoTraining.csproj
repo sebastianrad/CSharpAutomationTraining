@@ -47,6 +47,8 @@
     <Compile Include="Curs2\Chrome.cs" />
     <Compile Include="Curs2\Firefox.cs" />
     <Compile Include="Curs2\InternetExplorer.cs" />
+    <Compile Include="Curs3\Chrome.cs" />
+    <Compile Include="Curs3\Edge.cs" />
     <Compile Include="Curs3\Firefox.cs" />
     <Compile Include="Curs3\IE.cs" />
     <Compile Include="Test.cs" />

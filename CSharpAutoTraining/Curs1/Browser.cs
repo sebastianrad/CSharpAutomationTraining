@@ -11,9 +11,16 @@ namespace CSharpAutoTraining.Curs1
         public int WindowWidth = 1024;
         public int WindowHeight = 1056;
 
+        //curs 2
         public int WindowWidth_int = 30;
         public string WindowWidth_string = "44";
         public double WindowWidth_double = 124.6;
+
+        //curs 3
+        public int WindowWidth_intC3;
+        public string WindowWidth_stringC3;
+
+       
 
         public Browser()
         {
@@ -43,6 +50,16 @@ namespace CSharpAutoTraining.Curs1
             return WindowHeight;
         }
 
-        
+        //curs3
+        public virtual int ChangeWindowWidthC3(int val)
+        {
+            return val;
+        }
+        public virtual void About()
+        {
+
+        }
+
+
     }
 }
