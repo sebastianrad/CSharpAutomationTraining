@@ -11,6 +11,10 @@ namespace CSharpAutoTraining.Curs1
         public int WindowWidth = 1024;
         public int WindowHeight = 1056;
 
+        public int WindowWidth_int = 30;
+        public string WindowWidth_string = "44";
+        public double WindowWidth_double = 124.6;
+
         public Browser()
         {
 
@@ -22,6 +26,7 @@ namespace CSharpAutoTraining.Curs1
         public void ChangeWindowWidth(int newWindowWidth)
         {
             WindowWidth = newWindowWidth;
+            Console.WriteLine("IE");
         }
         public void ChangeWindowHeight(int newWindowHeight)
 
@@ -37,6 +42,7 @@ namespace CSharpAutoTraining.Curs1
         {
             return WindowHeight;
         }
+
         
     }
 }
