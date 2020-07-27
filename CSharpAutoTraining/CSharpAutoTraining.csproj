@@ -44,13 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Curs1\Browser.cs" />
-    <Compile Include="Curs1\Test.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Curs2\Browser.cs" />
+    <Compile Include="Curs2\Chrome.cs" />
+    <Compile Include="Curs2\Firefox.cs" />
+    <Compile Include="Curs2\InternetExplorer.cs" />
+    <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
