@@ -43,13 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Curs2\Chrome\Chrome.cs" />
+    <Compile Include="BrowsersMain.cs" />
     <Compile Include="Curs1\Browser.cs" />
     <Compile Include="Curs1\Test.cs" />
+    <Compile Include="Curs2\Browser.cs" />
+    <Compile Include="Curs2\Firefox\Firefox.cs" />
+    <Compile Include="Curs2\IE\IE.cs" />
+    <Compile Include="Curs3\BrowserCurs_3.cs" />
+    <Compile Include="Curs3\ChromeCurs_3\ChromeCurs_3.cs" />
+    <Compile Include="Curs3\EdgeCurs_3\EdgeCurs_3.cs" />
+    <Compile Include="Curs3\FirefoxCurs_3\FirefoxCurs_3.cs" />
+    <Compile Include="Curs3\IECurs_3\IECurs_3.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestMain.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
