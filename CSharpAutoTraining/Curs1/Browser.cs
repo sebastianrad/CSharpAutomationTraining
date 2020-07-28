@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpAutoTraining.Curs1
 {
-    class Browser
+      class Browser
     {
         public int WindowWidth = 1024;
         public int WindowHeight = 1056;
@@ -59,7 +59,6 @@ namespace CSharpAutoTraining.Curs1
         {
 
         }
-
 
     }
 }

@@ -9,7 +9,7 @@ namespace CSharpAutoTraining.Curs3
 {
     class IE : Browser
     {
-       
+      
         public void ChangeWindowWidth3(int val)
         {
 

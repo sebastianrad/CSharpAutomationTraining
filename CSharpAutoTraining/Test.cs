@@ -1,16 +1,19 @@
 ﻿using CSharpAutoTraining.Curs1;
 using CSharpAutoTraining.Curs2;
 using CSharpAutoTraining.Curs3;
+using CSharpAutoTraining.Curs4;
+using CSharpAutoTraining.Curs5;
 using System;
+using System.Dynamic;
 
 namespace Curs1
 {
-    class Program
+    class Program : Browser_Curs4
     {
         static void Main(string[] args)
         {
             //practice Curs2
-            var browser = new Browser();
+            var browser = new CSharpAutoTraining.Curs1.Browser();
             var firefox = new CSharpAutoTraining.Curs2.Firefox();
             var chrome = new CSharpAutoTraining.Curs2.Chrome();
             var IE = new InternetExplorer();
@@ -60,6 +63,28 @@ namespace Curs1
             Console.WriteLine(edge3.DisplayWindowHeight());
             Console.WriteLine(edge3.DisplayWindowWidth());
 
+            //curs4
+            // Browser_Curs4 bb = new Browser_Curs4();
+            Console.WriteLine("Curs 4: ");
+            FF f = new FF();
+            f.windowWidthSize = 1;
+
+            Skype test = new Skype();
+            test.About();
+            test.Ping();
+
+            //curs 5
+            Console.WriteLine("Curs 5: ");
+            Browser_Curs5_1 b1 = new Browser_Curs5_1();
+            b1.SendTextToElement();
+
+            Browser_Curs5_2 b2 = new Browser_Curs5_2();
+            b2.SendTextToElement();
+
+            Browser_Curs5_3 b3 = new Browser_Curs5_3();
+            
+
+
 
 
             var newBrowser = new Browser();
@@ -87,6 +112,16 @@ namespace Curs1
             // simple Hello World program in C#
             Console.WriteLine("Hello world");
             Console.ReadKey();
+        }
+       
+        
+       
+
+        public override void StartBrowser()
+        {
+            StartBrowser();
+            
+            
         }
     }
 }
