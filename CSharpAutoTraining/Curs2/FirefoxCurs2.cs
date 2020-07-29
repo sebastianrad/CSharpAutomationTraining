@@ -2,7 +2,7 @@
 
 namespace CSharpAutoTraining.Curs2
 {
-    class Firefox
+    class FirefoxCurs2
     {
         //variables
         public int WindowWidth_int;

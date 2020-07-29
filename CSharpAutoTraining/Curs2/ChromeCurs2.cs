@@ -2,7 +2,7 @@
 
 namespace CSharpAutoTraining.Curs2
 {
-    class Chrome
+    class ChromeCurs2
     {
         //variables
         public int WindowWidth_int;
