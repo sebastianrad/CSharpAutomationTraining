@@ -45,12 +45,10 @@
   <ItemGroup>
     <Compile Include="Curs1\Browser.cs" />
     <Compile Include="Curs1\Test.cs" />
-<<<<<<< branchIosifTamas
     <Compile Include="Curs2\Browser.cs" />
     <Compile Include="Curs2\Firefox.cs" />
     <Compile Include="Curs2\IE.cs" />
     <Compile Include="Curs2\Chrome.cs" />
-=======
     <Compile Include="Curs2\BrowserCurs2.cs" />
     <Compile Include="Curs2\FirefoxCurs2.cs" />
     <Compile Include="Curs2\IECurs2.cs" />
@@ -65,7 +63,6 @@
     <Compile Include="Curs4\IComponent.cs" />
     <Compile Include="Curs4\INetwork.cs" />
     <Compile Include="Curs4\Skype.cs" />
->>>>>>> local
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
