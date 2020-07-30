@@ -1,5 +1,6 @@
 ﻿using CSharpAutoTraining.Curs2;
 using CSharpAutoTraining.Curs3;
+using CSharpAutoTraining.Curs4;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,10 @@ using System.Threading.Tasks;
 namespace CSharpAutoTraining.Curs1
 {
     class Test
-    {
-        static void Main(string[] args)
+    {/*
+        
+
+       static void Main(string[] args)
         {
             /* var browser = new Browser();
 
@@ -28,7 +31,7 @@ namespace CSharpAutoTraining.Curs1
              */
 
             //Curs 2
-
+            /*
             Browser browser = new Browser();
 
             Firefox ff = new Firefox();
@@ -65,42 +68,8 @@ namespace CSharpAutoTraining.Curs1
             string b;
             b = Convert.ToString(a);
             Console.WriteLine(b);
-
-
-
-            //curs 3
-
-            FirefoxCurs3 ff3 = new FirefoxCurs3();
-            ff3.SetProfile("test");
-            ff3.About();
-
-            ChromeCurs3 chrome3 = new ChromeCurs3();
-            chrome3.About();
-            chrome3.ChangeWindowWidth(3);
-           // Console.WriteLine("new val from chrome" + chrome3.WindowWidth_int);
-
-            InternetExplorerCurs3 ie3 = new InternetExplorerCurs3();
-            ie3.ChangeWindowWidth(500);
-            ie3.About();
             
-
-
-            EdgeCurs3 edge3 = new EdgeCurs3();
-            edge3.About();
-            edge3.ChangeWindowWidth(200);
-            edge3.NewFeatureFunction();
-
-            BrowserCurs3 browser3 = new BrowserCurs3();
-            browser3.ChangeWindowWidth(1);
-            browser3.About();
-
-
-
-
-
-
-
             Console.ReadKey();
-        }
+        }*/
     }
 }

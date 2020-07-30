@@ -8,13 +8,14 @@ namespace CSharpAutoTraining.Curs3
 {
     class BrowserCurs3
     {
-        public int WindowWidth_int;
+        public int WindowWidth_int =9;
         public string WindowWidth_string;
 
         public virtual void ChangeWindowWidth(int val)
         {
            
             Console.WriteLine("Browser metoda ChangeWindowWidth");
+            WindowWidth_int = val;
         }
 
         public virtual void About()

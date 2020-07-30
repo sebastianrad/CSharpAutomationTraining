@@ -14,8 +14,8 @@ namespace CSharpAutoTraining.Curs3
         {
            
             Console.WriteLine("IE metoda ChangeWindowWidth");
-         
-           
+            //WindowWidth_int = val;
+
         }
     }
 }

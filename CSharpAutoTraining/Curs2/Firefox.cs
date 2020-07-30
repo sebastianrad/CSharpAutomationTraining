@@ -12,6 +12,7 @@ namespace CSharpAutoTraining.Curs2
         public int WindowWidth_int = 10;
         public string WindowWidth_string;
         public double WindowWidth_double;
+        
 
         public void NewDateForWindow(int newWindowWidth_int, string newWindowWidth_string, double newWindowWidth_double)
         {
