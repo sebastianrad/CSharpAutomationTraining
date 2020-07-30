@@ -8,5 +8,11 @@ namespace CSharpAutoTraining.Curs5
 {
     class BrowserHelperCurs5
     {
+        public static String PathImage;
+        public static void CaptureScreen()
+        {
+            Console.WriteLine("The screen is captured");
+
+        }
     }
 }
