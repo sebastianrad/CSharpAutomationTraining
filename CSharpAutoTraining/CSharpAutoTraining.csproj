@@ -55,6 +55,14 @@
     <Compile Include="Curs3\EdgeCurs3.cs" />
     <Compile Include="Curs3\FirefoxCurs3.cs" />
     <Compile Include="Curs3\InternetExplorerCurs3.cs" />
+    <Compile Include="Curs4\BrowserCurs4.cs" />
+    <Compile Include="Curs4\FirefoxCurs4.cs" />
+    <Compile Include="Curs4\IComponentCurs4.cs" />
+    <Compile Include="Curs4\INetworkCurs4.cs" />
+    <Compile Include="Curs4\SkypeCurs4.cs" />
+    <Compile Include="Curs5\BrowserCurs5.cs" />
+    <Compile Include="Curs5\BrowserHelperCurs5.cs" />
+    <Compile Include="Curs5\ProgramCurs5.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CSharpAutoTraining.Curs3;
-
+using CSharpAutoTraining.Curs4;
+/*
 namespace CSharpAutoTraining.Curs2
 {
 	class Test
@@ -40,6 +41,7 @@ namespace CSharpAutoTraining.Curs2
 				internetExplorer.DisplayMultipleTimes();
 			}
 
+
 			//CURS 3
 			FirefoxCurs3 firefoxCurs3 = new FirefoxCurs3();
 			ChromeCurs3 chromeCurs3 = new ChromeCurs3();
@@ -47,7 +49,25 @@ namespace CSharpAutoTraining.Curs2
 			EdgeCurs3 edgeCurs3 = new EdgeCurs3();
 			BrowserCurs3 browserCurs3 = new BrowserCurs3();
 
+
+			//curs 4
+
+			//In Main method for each object call available methods
+			// la clasa BrowserCurs4 nu se poate face new Browser (obiect nou) deoarece este o clasa abstracta, aceasta clasa poate fi apelata doar din alta clasa.
+			FirefoxCurs4 firefoxCurs4 = new FirefoxCurs4();
+			firefoxCurs4.About();
+			firefoxCurs4.Ping();
+			firefoxCurs4.StartBrowser();
+			firefoxCurs4.WindowWidth = 700;
+			Console.WriteLine(firefoxCurs4);
+
+			SkypeCurs4 skypeCurs4 = new SkypeCurs4();
+			skypeCurs4.About();
+			skypeCurs4.Ping();
+
+
 			Console.ReadKey();
 		}
 	}
 }
+*/
