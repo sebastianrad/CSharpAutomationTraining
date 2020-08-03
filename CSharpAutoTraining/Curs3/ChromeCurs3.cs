@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A.Curs3
+namespace ACSharpAutoTraining.Curs3
 {
     class ChromeCurs3 : BrowserCurs3
     {

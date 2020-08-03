@@ -1,5 +1,6 @@
 ﻿using B;
 using C;
+using CSharpAutoTraining.Curs5;
 using D;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A.Curs1
+namespace CSharpAutoTraining.Curs1
 {
     class Test
     {
@@ -23,22 +24,22 @@ namespace A.Curs1
 
             //..........................Curs2.............................
 
-            BrowserCurs2 browser = new BrowserCurs2();
-            FirefoxCurs2 firefox = new FirefoxCurs2();
-            ChromeCurs2 chrome = new ChromeCurs2();
-            IECurs2 ie = new IECurs2();
+            //BrowserCurs2 browser = new BrowserCurs2();
+            //FirefoxCurs2 firefox = new FirefoxCurs2();
+            //ChromeCurs2 chrome = new ChromeCurs2();
+            //IECurs2 ie = new IECurs2();
 
-            firefox.WindowWidth_int = 2000;
-            firefox.WindowWidth_double = 1920.0;
-            firefox.WindowWidth_string = "1920";
+            //firefox.WindowWidth_int = 2000;
+            //firefox.WindowWidth_double = 1920.0;
+            //firefox.WindowWidth_string = "1920";
 
-            Console.WriteLine(Convert.ToString(firefox.WindowWidth_int));
-            Console.WriteLine(Convert.ToDouble(firefox.WindowWidth_string));
-            Console.WriteLine(Convert.ToInt32(firefox.WindowWidth_double));
+            //Console.WriteLine(Convert.ToString(firefox.WindowWidth_int));
+            //Console.WriteLine(Convert.ToDouble(firefox.WindowWidth_string));
+            //Console.WriteLine(Convert.ToInt32(firefox.WindowWidth_double));
 
-            chrome.displayWindowWidth(2000);
+            //chrome.displayWindowWidth(2000);
 
-            ie.displayWindowWidth(1000);
+            //ie.displayWindowWidth(1000);
 
             //......................Curs3................................
 
@@ -89,8 +90,12 @@ namespace A.Curs1
 
             //.............................Curs5......................................
 
-            //BrowserCurs5 browserCurs5 = new BrowserCurs5();
-            //browserCurs5.SendTextToElement();
+            Browser1Curs5 browser1Curs5 = new Browser1Curs5();
+            Browser2Curs5 browser2Curs5 = new Browser2Curs5();
+            Browser3Curs5 browser3Curs5 = new Browser3Curs5();
+            browser1Curs5.SendTextToElement();
+            browser2Curs5.SendTextToElement();
+            //browser3Curs5.SendTextToElement(); // peivate methode is not accessible outside its class
 
 
         }

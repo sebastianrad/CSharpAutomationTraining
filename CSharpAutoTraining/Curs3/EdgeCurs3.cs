@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A.Curs3
+namespace CSharpAutoTraining.Curs3
 {
     class EdgeCurs3 : IECurs3
     {

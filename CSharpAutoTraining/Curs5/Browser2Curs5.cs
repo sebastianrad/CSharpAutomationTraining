@@ -1,14 +1,15 @@
-﻿using System;
+﻿using ACSharpAutoTraining.Curs5;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A.Curs5
+namespace CSharpAutoTraining.Curs5
 {
-    class BrowserCurs5 : BrowserHelperCurs5
+    class Browser2Curs5 : BrowserHelperCurs5
     {
-        public void SendTextToElement()
+        internal void SendTextToElement()
         {
             try
             {
@@ -24,9 +25,11 @@ namespace A.Curs5
             }
         }
 
+
+
         private void FindElement()
         {
-         
+
             throw new Exception("the element was not found");
 
         }

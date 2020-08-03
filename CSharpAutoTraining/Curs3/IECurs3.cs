@@ -1,10 +1,11 @@
-﻿using System;
+﻿using ACSharpAutoTraining.Curs3;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A.Curs3
+namespace CSharpAutoTraining.Curs3
 {
     class IECurs3 : BrowserCurs3
     {

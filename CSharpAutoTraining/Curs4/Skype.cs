@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace A.Curs4
+namespace CSharpAutoTraining.Curs4
 {
     class Skype : IComponent, INetwork
     {
