@@ -2,6 +2,7 @@
 using CSharpAutoTraining.Curs2;
 using CSharpAutoTraining.Curs3;
 using CSharpAutoTraining.Curs4;
+using CSharpAutoTraining.Curs5;
 using System;
 using Browser = CSharpAutoTraining.Curs2.Browser;
 using Chrome = CSharpAutoTraining.Curs3.Chrome;
@@ -15,7 +16,50 @@ namespace CursCSharp
         {
 
             /*******************************/
+            /* Curs5 - cod Practice / Tema */
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("----- CURS5 -----");
+            // create objects
+
+            CSharpAutoTraining.Curs5.Browser_public browser_curs5_public = new CSharpAutoTraining.Curs5.Browser_public();
+            CSharpAutoTraining.Curs5.Browser_internal browser_curs5_internal = new CSharpAutoTraining.Curs5.Browser_internal();
+            CSharpAutoTraining.Curs5.Browser_private browser_curs5_private = new CSharpAutoTraining.Curs5.Browser_private();
+
+            Console.WriteLine();
+            Console.WriteLine("----- Browser_public section -----");
+            // set the PathImage to a default, before the call of public method SendTextToElement()
+            BrowserHelper.PathImage = "Browser_public: Screen not captured";
+
+            browser_curs5_public.SendTextToElement();
+            // if the call is correct, the PathImage should be "CaptureScreen_Path Finally - public"
+            Console.WriteLine("PathImage = " + BrowserHelper.PathImage);
+
+
+            Console.WriteLine();
+            Console.WriteLine("----- Browser_internal section -----");
+            // set the PathImage to a default, before the call of internal method SendTextToElement()
+            BrowserHelper.PathImage = "Browser_internal: Screen not captured";
+
+            browser_curs5_internal.SendTextToElement();
+            // if the call is correct, the PathImage should be "CaptureScreen_Path Finally - internal"
+            Console.WriteLine("PathImage = " + BrowserHelper.PathImage);
+
+
+            Console.WriteLine();
+            Console.WriteLine("----- Browser_private section -----");
+            // set the PathImage to a default, before trying to call private method SendTextToElement()
+            BrowserHelper.PathImage = "Browser_private: Screen not captured";
+
+            // browser_curs5_private.SendTextToElement();
+            // since the private method SendTextToElement() cannot be called, the PathImage will remain as "Browser_private CaptureScreen_Path"
+            Console.WriteLine("PathImage = " + BrowserHelper.PathImage);
+
+
+            /*******************************/
             /* Curs4 - cod Practice / Tema */
+            Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("----- CURS4 -----");
             // create objects
 
@@ -26,6 +70,10 @@ namespace CursCSharp
             firefox_curs4.StartBrowser();
             firefox_curs4.About();
             firefox_curs4.Ping();
+            // set window width smaller than 1024, bigger than 1920 and in the correct interval
+            firefox_curs4.WindowWidth = 800;
+            firefox_curs4.WindowWidth = 8000;
+            firefox_curs4.WindowWidth = 1800;
 
             Console.WriteLine();
             Console.WriteLine("----- Skype section -----");

@@ -24,7 +24,7 @@ namespace CSharpAutoTraining.Curs2
         // add method to display window with depending on condition > 1920
         public void Check_WindowWidth_1920()
         {
-            // loop index
+            // loop index, is reset to 0 at every method call
             int i = 0;
 
             if (WindowWidth_int > 1920)

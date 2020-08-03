@@ -47,6 +47,7 @@ namespace CSharpAutoTraining.Curs4
                     {
                         // set the windowWidth to the new value
                         windowWidth = value;
+                        Console.WriteLine("WindowWidth: windowWidth = " + windowWidth);
                     }
                 }
             }
