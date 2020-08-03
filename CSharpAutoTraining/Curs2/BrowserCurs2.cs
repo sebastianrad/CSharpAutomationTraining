@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpAutoTraining.Curs2
+namespace A
 {
     class BrowserCurs2
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAutoTraining.Curs1
+namespace A.Curs1
 {
     public class Browser
     {

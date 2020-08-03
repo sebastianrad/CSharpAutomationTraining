@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAutoTraining.Curs5
+namespace A.Curs5
 {
     class BrowserHelperCurs5
     {

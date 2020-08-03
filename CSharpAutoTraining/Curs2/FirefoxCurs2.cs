@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpAutoTraining.Curs2
+namespace B
 {
     class FirefoxCurs2
     {

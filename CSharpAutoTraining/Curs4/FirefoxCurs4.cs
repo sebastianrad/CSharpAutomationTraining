@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAutoTraining.Curs4
+namespace A.Curs4
 {
     class FirefoxCurs4 : BrowserCurs4, IComponent, INetwork
     {

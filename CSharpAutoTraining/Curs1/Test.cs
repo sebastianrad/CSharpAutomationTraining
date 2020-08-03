@@ -1,14 +1,13 @@
-﻿using CSharpAutoTraining.Curs2;
-using CSharpAutoTraining.Curs3;
-using CSharpAutoTraining.Curs4;
-using CSharpAutoTraining.Curs5;
+﻿using B;
+using C;
+using D;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAutoTraining.Curs1
+namespace A.Curs1
 {
     class Test
     {
@@ -24,22 +23,22 @@ namespace CSharpAutoTraining.Curs1
 
             //..........................Curs2.............................
 
-            //BrowserCurs2 browser = new BrowserCurs2();
-            //FirefoxCurs2 firefox = new FirefoxCurs2();
-            //ChromeCurs2 chrome = new ChromeCurs2();
-            //IECurs2 ie = new IECurs2();
+            BrowserCurs2 browser = new BrowserCurs2();
+            FirefoxCurs2 firefox = new FirefoxCurs2();
+            ChromeCurs2 chrome = new ChromeCurs2();
+            IECurs2 ie = new IECurs2();
 
-            //firefox.WindowWidth_int = 1920;
-            //firefox.WindowWidth_double = 1920.0;
-            //firefox.WindowWidth_string = "1920";
+            firefox.WindowWidth_int = 2000;
+            firefox.WindowWidth_double = 1920.0;
+            firefox.WindowWidth_string = "1920";
 
-            //Console.WriteLine(Convert.ToString(firefox.WindowWidth_int));
-            //Console.WriteLine(Convert.ToDouble(firefox.WindowWidth_string));
-            //Console.WriteLine(Convert.ToInt32(firefox.WindowWidth_double));
+            Console.WriteLine(Convert.ToString(firefox.WindowWidth_int));
+            Console.WriteLine(Convert.ToDouble(firefox.WindowWidth_string));
+            Console.WriteLine(Convert.ToInt32(firefox.WindowWidth_double));
 
-            //chrome.displayWindowWidth(1024);
+            chrome.displayWindowWidth(2000);
 
-            //ie.displayWindowWidth(1000);
+            ie.displayWindowWidth(1000);
 
             //......................Curs3................................
 
@@ -90,8 +89,8 @@ namespace CSharpAutoTraining.Curs1
 
             //.............................Curs5......................................
 
-            BrowserCurs5 browserCurs5 = new BrowserCurs5();
-            browserCurs5.SendTextToElement();
+            //BrowserCurs5 browserCurs5 = new BrowserCurs5();
+            //browserCurs5.SendTextToElement();
 
 
         }
