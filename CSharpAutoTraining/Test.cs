@@ -1,6 +1,7 @@
 ﻿using CSharpAutoTraining.Curs1;
 using CSharpAutoTraining.Curs2;
 using CSharpAutoTraining.Curs3;
+using CSharpAutoTraining.Curs4;
 using System;
 using Browser = CSharpAutoTraining.Curs2.Browser;
 using Chrome = CSharpAutoTraining.Curs3.Chrome;
@@ -14,7 +15,28 @@ namespace CursCSharp
         {
 
             /*******************************/
+            /* Curs4 - cod Practice / Tema */
+            Console.WriteLine("----- CURS4 -----");
+            // create objects
+
+            CSharpAutoTraining.Curs4.Firefox firefox_curs4 = new CSharpAutoTraining.Curs4.Firefox();
+            CSharpAutoTraining.Curs4.Skype skype_curs4 = new CSharpAutoTraining.Curs4.Skype();
+
+            Console.WriteLine("----- Firefox section -----");
+            firefox_curs4.StartBrowser();
+            firefox_curs4.About();
+            firefox_curs4.Ping();
+
+            Console.WriteLine();
+            Console.WriteLine("----- Skype section -----");
+            skype_curs4.About();
+            skype_curs4.Ping();
+
+
+            /*******************************/
             /* Curs3 - cod Practice / Tema */
+            Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("----- CURS3 -----");
             // create objects
             CSharpAutoTraining.Curs3.Browser browser_curs3 = new CSharpAutoTraining.Curs3.Browser();
