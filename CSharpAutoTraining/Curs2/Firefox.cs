@@ -8,9 +8,9 @@ namespace CSharpAutoTraining.Curs2
 {
     class Firefox
     {
-        public int WindowWidth_int = 30;
-        public string WindowWidth_string = "44";
-        public double WindowWidth_double = 124.6;
+        public int WindowWidth_int = 22;
+        public string WindowWidth_string = "35";
+        public double WindowWidth_double = 115.6;
 
     }
 }

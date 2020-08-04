@@ -8,10 +8,14 @@ namespace CSharpAutoTraining.Curs6
 {
     class HomePage
     {
-        static void Main(String[] args) 
-        {
-            IWebDriver driver = new Chrome();
-            driver.Navigate().GoToUrl("file:///C:/Users/dgroza/AppData/Local/Temp/Temp1_pages%20(1).zip/homepage.html");
-        }
+        String Image = "//div[@id = 'header']/a/img"; 
+        String HomeLink = "//header/ul/a[1]"; 
+        String HTML = "//h1"; 
+        String Text = "//body/p"; 
+        String Email = "//input[@id = 'email']"; 
+        String Password = "//form/text()[2]"; 
+        String Login = "//button[@id = 'Login']"; 
+        String HomeFooter = "//footer/ul/li[1]";
+        String WikiLink = "//header/ul/a[2]";
     }
 }

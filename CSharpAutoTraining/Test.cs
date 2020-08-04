@@ -64,8 +64,8 @@ namespace Curs1
             Console.WriteLine(edge3.DisplayWindowHeight());
             Console.WriteLine(edge3.DisplayWindowWidth());
 
-            //curs4
-            // Browser_Curs4 bb = new Browser_Curs4();
+            //practice curs4
+            // BrowserCurs4 bb = new BrowserCurs4();
             //Console.WriteLine("Curs 4: ");
             //FF f = new FF();
             //f.windowWidthSize = 1;
@@ -73,16 +73,6 @@ namespace Curs1
             //Skype test = new Skype();
             //test.About();
             //test.Ping();
-
-            //curs 5
-            // Console.WriteLine("Curs 5: ");
-            // Browser_Curs5_1 b1 = new Browser_Curs5_1();
-            //b1.SendTextToElement();
-
-            //Browser_Curs5_2 b2 = new Browser_Curs5_2();
-            //b2.SendTextToElement();
-
-            //Browser_Curs5_3 b3 = new Browser_Curs5_3();
 
 
 

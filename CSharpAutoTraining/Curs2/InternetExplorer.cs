@@ -8,9 +8,9 @@ namespace CSharpAutoTraining.Curs2
 {
     class InternetExplorer
     {
-        public int WindowWidth_int = 1930;
-        public string WindowWidth_string = "44";
-        public double WindowWidth_double = 124.6;
+        public int WindowWidth_int = 1820;
+        public string WindowWidth_string = "35";
+        public double WindowWidth_double = 115.6;
         public void displayWindowWidth()
         {
             if (WindowWidth_int > 1920)
