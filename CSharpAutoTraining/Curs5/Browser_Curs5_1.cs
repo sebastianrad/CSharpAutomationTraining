@@ -18,18 +18,14 @@ namespace CSharpAutoTraining.Curs5
             {
                 CaptureScreen();
             }
-              
-        }
-        public void FindElement()
-        {
-            try
-            {
-                PathImage = "empty";
-            }
             finally
             {
                 PathImage = "empty";
             }
+              
+        }
+        public void FindElement()
+        {
             throw new Exception("The element was not found");
         }
     }

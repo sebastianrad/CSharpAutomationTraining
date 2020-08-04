@@ -6,16 +6,21 @@ using System.Threading.Tasks;
 
 namespace CSharpAutoTraining.Curs4
 {
-       abstract class Firefox_Curs4 : Browser_Curs4, INetwork
+       abstract class Firefox_Curs4 : Browser_Curs4, INetwork, IComponent
     {
+        public void About()
+        {
+            //throw new NotImplementedException();
+        }
+
         public void Ping()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public override void StartBrowser()
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }

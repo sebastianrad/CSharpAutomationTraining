@@ -14,13 +14,18 @@ namespace CSharpAutoTraining.Curs4
             get { return WindowWidth; }
             set
             {
-                if (value <= 0)
+                if (value < 1024)
                 {
-                    Console.WriteLine("Value is:" + WindowWidth);
+                    Console.WriteLine("Rezolutia este prea mica");
+                }
+                else if (value > 1920)
+                {
+                    Console.WriteLine("Rezolutia este prea mare");
                 }
                 else
                 {
-                    Console.WriteLine("Value is:" + 1920);
+                    WindowWidth = value;
+                    Console.WriteLine("Rezolutia este:" + WindowWidth);
                 }
             }
         }
