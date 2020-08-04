@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAutoTraining.Curs2.Firefox
+namespace CSharpAutoTraining.Curs4
 {
-    class Firefox : Browser
+    interface IComponent
     {
+        void About();
     }
 }

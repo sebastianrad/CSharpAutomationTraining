@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAutoTraining.Curs3.EdgeCurs_3
+namespace CSharpAutoTraining.Curs3
 {
-    class EdgeCurs_3 : IECurs_3
+    class Edge : IE
     {
         int version;
         public void NewFeatureFunction()
-        { 
+        {
 
         }
     }

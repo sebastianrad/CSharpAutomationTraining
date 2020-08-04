@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAutoTraining.Curs3.FirefoxCurs_3
+namespace CSharpAutoTraining.Curs6
 {
-    class FirefoxCurs_3 : BrowserCurs_3
+    class ProgramCurs6
     {
-        public void SetProfile(string profileName)
+        public static void main(String[] args) 
         { 
 
         }
