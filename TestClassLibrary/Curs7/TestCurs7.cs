@@ -6,7 +6,7 @@ using System.Text;
 namespace TestClassLibrary.Curs7
 {
     [TestFixture]
-    class Test : BrowserCurs7
+    class TestCurs9 : BrowserCurs7
     {
 
         [Test]

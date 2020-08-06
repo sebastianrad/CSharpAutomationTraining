@@ -8,7 +8,7 @@ using OpenQA.Selenium.Chrome;
 namespace TestClassLibrary.Curs8
 {
     [TestFixture]
-    class Test
+    class TestCurs8
     {
         [Test]
         public void GetPageTitleTest()

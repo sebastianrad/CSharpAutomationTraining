@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAutoTraining", "CSharpAutoTraining\CSharpAutoTraining.csproj", "{E83F1479-7C6A-41EA-B56F-05D559E1F475}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CC6686DD-A909-4352-BDD8-9BBA04B74681} = {CC6686DD-A909-4352-BDD8-9BBA04B74681}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClassLibrary", "TestClassLibrary\TestClassLibrary.csproj", "{CC6686DD-A909-4352-BDD8-9BBA04B74681}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestClassLibrary", "TestClassLibrary\TestClassLibrary.csproj", "{CC6686DD-A909-4352-BDD8-9BBA04B74681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
