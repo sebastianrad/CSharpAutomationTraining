@@ -16,6 +16,34 @@ namespace CursCSharp
         {
 
             /*******************************/
+            /* Curs6 - cod Practice / Tema */
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("----- CURS6 -----");
+            // create objects
+
+            CSharpAutoTraining.Curs6.Firefox firefox_curs6_no_args = new CSharpAutoTraining.Curs6.Firefox();
+            CSharpAutoTraining.Curs6.Firefox firefox_curs6_arg_int = new CSharpAutoTraining.Curs6.Firefox(800);
+            CSharpAutoTraining.Curs6.Firefox firefox_curs6_arg_double = new CSharpAutoTraining.Curs6.Firefox(1800.92);
+
+            //create local variabls
+            int NewWindowWidth;
+
+            Console.WriteLine();
+            Console.WriteLine("----- Firefox_no_arg section -----");
+            NewWindowWidth = firefox_curs6_no_args.GetWindowWidth();
+
+
+            Console.WriteLine();
+            Console.WriteLine("----- Firefox_arg_int section -----");
+            NewWindowWidth = firefox_curs6_arg_int.GetWindowWidth();
+
+            Console.WriteLine();
+            Console.WriteLine("----- Firefox_arg_double section -----");
+            NewWindowWidth = firefox_curs6_arg_double.GetWindowWidth();
+
+
+            /*******************************/
             /* Curs5 - cod Practice / Tema */
             Console.WriteLine();
             Console.WriteLine();

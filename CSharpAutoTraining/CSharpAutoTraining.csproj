@@ -62,6 +62,8 @@
     <Compile Include="Curs5\Browser_internal.cs" />
     <Compile Include="Curs5\Browser_public.cs" />
     <Compile Include="Curs5\BrowserHelper.cs" />
+    <Compile Include="Curs6\Firefox.cs" />
+    <Compile Include="Curs6\HomePage.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
