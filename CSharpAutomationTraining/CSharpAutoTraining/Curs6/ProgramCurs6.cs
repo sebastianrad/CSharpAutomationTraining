@@ -18,6 +18,7 @@ namespace CSharpAutoTraining.Curs6
 
             windowWidth = ff1.GetWindowWidth();
             Console.WriteLine(windowWidth);
+            
         }
     }
 }

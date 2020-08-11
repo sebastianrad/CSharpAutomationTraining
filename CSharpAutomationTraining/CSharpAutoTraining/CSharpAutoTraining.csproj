@@ -78,6 +78,7 @@
     <Compile Include="Curs5\Browser_Curs5_2.cs" />
     <Compile Include="Curs5\Browser_Curs5_3.cs" />
     <Compile Include="Curs6\FirefoxCurs6_1.cs" />
+    <Compile Include="Curs6\HomePageCurs6.cs" />
     <Compile Include="Curs6\ProgramCurs6.cs" />
     <Compile Include="Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

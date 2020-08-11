@@ -65,10 +65,10 @@ namespace Curs1
             //    Console.WriteLine(edge3.DisplayWindowWidth());
 
             //    //curs4
-            //    // Browser_Curs4 bb = new Browser_Curs4();
-            //    Console.WriteLine("Curs 4: ");
-            //    FF f = new FF();
-            //    f.windowWidthSize = 1;
+               //Browser_Curs4 bb = new Browser_Curs4();
+               //Console.WriteLine("Curs 4: ");
+               // FF f = new FF();
+               //f.windowWidthSize = 1;
 
             //    Skype test = new Skype();
             //    test.About();
